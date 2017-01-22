@@ -1,4 +1,5 @@
 import media
+import fresh_tomatoes
 
 toy_story = media.Movie("Toy Story",
                         "The story of a young boy and his toys",
@@ -30,3 +31,9 @@ oceans_eleven = media.Movie("Ocean's Eleven",
                             "https://images-na.ssl-images-amazon.com/images/I/51HNXQS7Q1L._SY300_.jpg",
                             "https://www.youtube.com/watch?v=imm6OR605UI")
 
+fresh_tomatoes.open_movies_page([toy_story,
+                                 avatar,
+                                 baahubali,
+                                 inception,
+                                 shawshank_redemption,
+                                 oceans_eleven])
