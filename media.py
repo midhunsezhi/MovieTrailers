@@ -2,8 +2,6 @@
 This module defines the Movie class.
 """
 
-import webbrowser
-
 class Movie():
     """
     The movie class defines the instance variables and methods for each movie instance.
